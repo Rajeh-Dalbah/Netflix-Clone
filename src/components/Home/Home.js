@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Button, Container, Row, Card, Col } from "react-bootstrap";
+import '../Home/Home.css';
 import ModalMovie from "../ModalMovie/ModalMovie";
 
 function Home() {
@@ -33,7 +34,7 @@ function Home() {
 
   return (
     <>
-   
+
       <Container className="div-container">
         <Row md={3}>
           {data.length &&
