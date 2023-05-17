@@ -11,7 +11,6 @@ function Movie(){
         
         return await axios.get(`http://localhost:3003/trending`)
             .then(result => {
-                // console.log(result.data);
                 return result.data;
             }).catch((err) => {
                 console.log(err);
